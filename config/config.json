@@ -1,0 +1,342 @@
+{
+    "Markets":{
+        "Europe":
+            [{  "Name":"BME",
+                "NumberStocks":30,
+                "Enable":"True",
+                "Hashtags": "#MercadosFinancieros #Inversiones",
+                "Flag": "\\U0001F1EA\\U0001F1F8"
+            },
+            {   "Name":"EPA",
+                "NumberStocks":28,
+                "Enable":"True",
+                "Hashtags": "#MarchésFinanciers #Investissements #Bourse",
+                "Flag": "\\U0001F1EB\\U0001F1F7"
+            },
+            {   "Name":"ETR",
+                "NumberStocks":30,
+                "Enable":"True",
+                "Hashtags": "#Finanzmärkte #Investitionen #Börse",
+                "Flag": "\\U0001F1E9\\U0001F1EA"
+            },
+            {   "Name":"LON",
+                "NumberStocks":30,
+                "Enable":"False"},
+
+            {   "Name":"VIE",
+                "NumberStocks":20,
+                "Enable":"True",
+                "Hashtags": "#Finanzmärkte #Investitionen",
+                "Flag": "\\U0001F1E6\\U0001F1F9"
+                }]
+            ,
+        "Asia":{
+            "HKG":30,
+            "Enable":"True"},
+        "America":{
+            "NASDAQ":{
+                "NumberStocks":3332},
+            "NYSE":{
+                "NumberStocks":1974}    
+
+        }
+       
+    },
+    
+    "Crypto": {"CryptCodes":[
+        {
+            "name": "Bitcoin",
+            "code": "BTC",
+            "ticker": "BTC-USD",
+            "enable":"True"
+        },
+        {
+            "name": "Ethereum",
+            "code": "ETH",
+            "ticker": "ETH-USD",
+            "enable":"True"
+        },
+        {
+            "name": "Binance Coin",
+            "code": "BNB",
+            "ticker": "BNB-USD",
+            "enable":"True"
+        },
+        {
+            "name": "Ripple",
+            "code": "XRP",
+            "ticker": "XRP-USD",
+            "enable":"True"
+        },
+        {
+            "name": "Cardano",
+            "code": "ADA",
+            "ticker": "ADA-USD",
+            "enable":"True"
+        },
+        {
+            "name": "Solana",
+            "code": "SOL",
+            "ticker": "SOL-USD",
+            "enable":"True"
+        },
+        {
+            "name": "Dogecoin",
+            "code": "DOGE",
+            "ticker": "DOGE-USD",
+            "enable":"True"
+        },
+        {
+            "name": "Polkadot",
+            "code": "DOT",
+            "ticker": "DOT-USD",
+            "enable":"False"
+        },
+        {
+            "name": "Shiba Inu",
+            "code": "SHIB",
+            "ticker": "SHIB-USD",
+            "enable":"False"
+        },
+        {
+            "name": "Litecoin",
+            "code": "LTC",
+            "ticker": "LTC-USD",
+            "enable":"False"
+        },
+        {
+            "name": "Chainlink",
+            "code": "LINK",
+            "ticker": "LINK-USD",
+            "enable":"False"
+        },
+        {
+            "name": "Polygon",
+            "code": "MATIC",
+            "ticker": "MATIC-USD",
+            "enable":"False"
+        },
+        {
+            "name": "Stellar",
+            "code": "XLM",
+            "ticker": "XLM-USD",
+            "enable":"False"
+        },
+        {
+            "name": "Avalanche",
+            "code": "AVAX",
+            "ticker": "AVAX-USD",
+            "enable":"False"
+        },
+        {
+            "name": "Uniswap",
+            "code": "UNI",
+            "ticker": "UNI-USD",
+            "enable":"False"
+        }
+    ]},
+    
+    "CriptoEmojis":{
+        
+            "upward_trend": "\\U0001F4C8",
+            "downward_trend": "\\U0001F4C9",
+            "no_change": "\\U000027A1",
+            "unknown": "\\U00002753"
+        
+    },
+
+    "CryptoHastags": "#Crypto #Blockchain #DeFi",
+    "Emojis":{
+        "chart_emoji": "\\U0001F4CA",
+        "up_emoji": "\\U0001F4C8",    
+        "down_emoji": "\\U0001F4C9",  
+        "flat_emoji": "\\U000027A1" },
+        
+    "Cryptotweets": [
+                "🚀 {crypto_name} is making moves! Current price: ${current_price}, with a {variation}% change {emoji}. Stay ahead of the curve! 📊 #Crypto #Blockchain #{crypto_name}",
+                "📈 Watching {crypto_name} closely! Price: ${current_price}, change: {variation}% {emoji}. What's next for this crypto? 💡 #DeFi #Crypto #{crypto_name}",
+                "🔥 Hot trend alert! {crypto_name} is now at ${current_price}. See the {variation}% change {emoji} and keep your eyes on the market! #Crypto #Blockchain #{crypto_name}",
+                "💹 {crypto_name} update: Current price is ${current_price} with a {variation}% shift {emoji}. Is this a sign to buy or sell? #Crypto #DeFi #{crypto_name}",
+                "🔔 Market update: {crypto_name} at ${current_price}, showing a {variation}% variation {emoji}. What's your take? 🚀 #Crypto #Blockchain #{crypto_name}",
+                "📊 {crypto_name} is on the radar! Current price: ${current_price}, change: {variation}% {emoji}. Keep up with the latest trends! 💥 #Crypto #DeFi #{crypto_name}",
+                "🧐 Tracking {crypto_name}: Price at ${current_price} with a {variation}% movement {emoji}. How are you trading today? 💰 #Crypto #Blockchain #{crypto_name}",
+                "⚡️ {crypto_name} is trending! Current price: ${current_price}, with a {variation}% shift {emoji}. Stay informed on market dynamics! #Crypto #DeFi #{crypto_name}",
+                "💸 Check out {crypto_name}'s latest trend! Price: ${current_price}, change: {variation}% {emoji}. The market's buzzing! 📈 #Crypto #Blockchain #{crypto_name}",
+                "🔍 {crypto_name} update: Current price is ${current_price}, with a {variation}% variation {emoji}. What's your strategy? 🤔 #Crypto #DeFi #{crypto_name}",
+                "💥 {crypto_name} is making waves! Current price: ${current_price}, showing a {variation}% change {emoji}. Don't miss out! #Crypto #Blockchain #{crypto_name}",
+                "🚨 Market watch: {crypto_name} at ${current_price}, with a {variation}% shift {emoji}. Are you in? 📊 #Crypto #DeFi #{crypto_name}",
+                "📉 {crypto_name} trend update: Current price is ${current_price}, with a {variation}% change {emoji}. Time to take action? 💡 #Crypto #Blockchain #{crypto_name}",
+                "🚀 {crypto_name} is on the move! Current price: ${current_price}, with a {variation}% change {emoji}. Stay tuned for more! ⚡️ #Crypto #DeFi #{crypto_name}",
+                "📊 Latest {crypto_name} update: Price at ${current_price}, change: {variation}% {emoji}. What's next for the market? 💰 #Crypto #Blockchain #{crypto_name}",
+                "📈 {crypto_name} alert! The price is now ${current_price}, with a {variation}% change {emoji}. Keep an eye on the market! #Crypto #DeFi #{crypto_name}",
+                "🚀 {crypto_name} is soaring! Current price: ${current_price}. See the {variation}% change {emoji} and watch for more movement! #Crypto #Blockchain #{crypto_name}",
+                "💸 {crypto_name} price update: ${current_price}. The change is {variation}% {emoji}. Is this a buying opportunity? #Crypto #DeFi #{crypto_name}",
+                "🔍 {crypto_name} analysis: Current price at ${current_price}, with a {variation}% shift {emoji}. What are your thoughts? #Crypto #Blockchain #{crypto_name}",
+                "📉 {crypto_name} is experiencing a {variation}% change {emoji}. Current price: ${current_price}. Stay informed and trade wisely! #Crypto #DeFi #{crypto_name}",
+                "🔥 The latest on {crypto_name}: Price ${current_price}, with a {variation}% change {emoji}. Market trends are shifting! #Crypto #Blockchain #{crypto_name}",
+                "💹 {crypto_name} update: ${current_price}. The variation is {variation}% {emoji}. What's your strategy? 🚀 #Crypto #DeFi #{crypto_name}",
+                "🌐 {crypto_name} market update: Current price is ${current_price}, showing a {variation}% change {emoji}. Be ready for more action! #Crypto #Blockchain #{crypto_name}",
+                "💥 {crypto_name} alert: Price ${current_price}, with a {variation}% shift {emoji}. Market is buzzing—get involved! #Crypto #DeFi #{crypto_name}",
+                "⚡️ {crypto_name} in the spotlight: ${current_price}, with a {variation}% change {emoji}. Watch out for further movements! #Crypto #Blockchain #{crypto_name}",
+                "📊 {crypto_name} is trending! Current price: ${current_price}, with a {variation}% change {emoji}. Keep track of this crypto! #Crypto #DeFi #{crypto_name}",
+                "🚨 Big update on {crypto_name}: Price is ${current_price}, with a {variation}% variation {emoji}. Time to adjust your strategy? #Crypto #Blockchain #{crypto_name}",
+                "🌟 {crypto_name} is making headlines! Current price: ${current_price}, with a {variation}% shift {emoji}. Stay ahead of the game! #Crypto #DeFi #{crypto_name}",
+                "📈 {crypto_name} update: Price ${current_price}, with a {variation}% change {emoji}. What's your next move in the crypto space? #Crypto #Blockchain #{crypto_name}"
+            ],
+    
+    "RandomPlaneTweets":[
+        {"id": 1, "text": "📉 What is the Euribor? It is the average interest rate at which banks in the Eurozone lend to each other. It affects many mortgages in Europe. 🏡 #Finance #Euribor", "published": 0},
+        {"id": 2, "text": "🌐 What is Blockchain? It is a distributed ledger technology that allows secure transfer of data and assets without intermediaries. #Blockchain #Technology", "published": 0},
+        {"id": 3, "text": "🚀 Solana is a blockchain platform aiming to offer high speed and low-cost transactions. Ideal for decentralized applications. #Solana #Crypto", "published": 0},
+        {"id": 4, "text": "💹 Apple Inc. (AAPL) is one of the world’s most valuable tech companies, known for its innovations in smartphones, tablets, and computers. #Apple #Stocks", "published": 0},
+        {"id": 5, "text": "📈 What is the Dow Jones Index? It is a gauge that reflects the performance of 30 major U.S. companies. A good barometer of the market. #Finance #DowJones", "published": 0},
+        {"id": 6, "text": "🔍 What is technical analysis? It is a method to evaluate securities by analyzing statistics generated by market activity, such as past prices and volume. #Trading #Investing", "published": 0},
+        {"id": 7, "text": "🌟 Ethereum is a blockchain platform that enables smart contracts and decentralized applications (dApps). Essential for the crypto ecosystem. #Ethereum #Blockchain", "published": 0},
+        {"id": 8, "text": "💡 The RSI (Relative Strength Index) is a technical indicator that measures the speed and change of price movements. #Trading #Finance", "published": 0},
+        {"id": 9, "text": "📊 What is a stock? It is a unit of ownership in a company that grants rights to dividends and participation in management. #Stocks #Investment", "published": 0},
+        {"id": 10, "text": "💹 Bitcoin is the first cryptocurrency and remains the most well-known. It uses blockchain technology to enable secure, decentralized transactions. #Bitcoin #Crypto", "published": 0},
+        {"id": 11, "text": "📈 What is a moving average? It is a technical indicator that smooths out price data to identify trends. #Trading #Finance", "published": 0},
+        {"id": 12, "text": "🚀 What is Solana? It is a high-performance blockchain offering fast and low-cost transactions, ideal for decentralized applications. #Solana #Crypto", "published": 0},
+        {"id": 13, "text": "💸 What is the P/E Ratio (Price-to-Earnings Ratio)? It is a metric that values a stock by comparing its price to its earnings. Helps assess if a stock is overvalued. #Stocks #Finance", "published": 0},
+        {"id": 14, "text": "🔍 What is fundamental analysis? It is a technique to evaluate a stock’s value by analyzing its financial statements, economic conditions, and industry trends. #Stocks #Investing", "published": 0},
+        {"id": 15, "text": "🌟 What is a dividend? It is a portion of a company’s earnings paid to shareholders, typically on a quarterly basis. #Stocks #Investing", "published": 0},
+        {"id": 16, "text": "📉 What is market capitalization? It is the total market value of a company’s outstanding shares, calculated as share price times number of shares. #Stocks #Finance", "published": 0},
+        {"id": 17, "text": "🚀 What is Bitcoin mining? It is the process of validating transactions and adding them to the Bitcoin blockchain, requiring computational power and energy. #Bitcoin #Crypto", "published": 0},
+        {"id": 18, "text": "💹 What is a bull market? It is a period when asset prices are rising or are expected to rise. Optimism and investor confidence are high. #Stocks #Investing", "published": 0},
+        {"id": 19, "text": "📊 What is a stock split? It is when a company divides its existing shares into multiple new shares to lower the trading price. #Stocks #Finance", "published": 0},
+        {"id": 20, "text": "🔍 What is a bear market? It is a period when asset prices are falling or are expected to fall. Pessimism and fear dominate the market. #Stocks #Investing", "published": 0},
+        {"id": 21, "text": "🌟 What is a mutual fund? It is an investment vehicle that pools money from many investors to invest in a diversified portfolio of assets. #Investing #Finance", "published": 0},
+        {"id": 22, "text": "📈 What is the S&P 500? It is an index of 500 of the largest companies in the U.S., representing a broad cross-section of the market. #Finance #Investing", "published": 0},
+        {"id": 23, "text": "💡 What is an ETF (Exchange-Traded Fund)? It is an investment fund traded on stock exchanges, similar to individual stocks, that holds a collection of assets. #Investing #Finance", "published": 0},
+        {"id": 24, "text": "🔍 What is asset allocation? It is the process of dividing investments among different asset categories to manage risk and achieve investment goals. #Investing #Finance", "published": 0},
+        {"id": 25, "text": "🚀 What is Ripple (XRP)? It is a digital payment protocol and cryptocurrency designed for fast and low-cost international transactions. #Ripple #Crypto", "published": 0},
+        {"id": 26, "text": "💹 What is a portfolio? It is a collection of investments held by an individual or institution, including stocks, bonds, and other assets. #Investing #Finance", "published": 0},
+        {"id": 27, "text": "📊 What is the NASDAQ? It is an American stock exchange known for its high-tech and growth-oriented companies. #Stocks #Finance", "published": 0},
+        {"id": 28, "text": "🔍 What is a bond? It is a fixed income investment where an investor loans money to a borrower in exchange for periodic interest payments and the return of principal at maturity. #Investing #Finance", "published": 0},
+        {"id": 29, "text": "🌟 What is diversification? It is the strategy of spreading investments across various assets to reduce risk and increase potential returns. #Investing #Finance", "published": 0},
+        {"id": 30, "text": "💡 What is a hedge fund? It is a pooled investment fund that employs various strategies to earn active returns for its investors. #Investing #Finance", "published": 0},
+        {"id": 31, "text": "📈 What is a stop-loss order? It is a type of order placed with a broker to sell a security when it reaches a certain price, designed to limit losses. #Trading #Finance", "published": 0},
+        {"id": 32, "text": "🔍 What is a credit score? It is a numerical representation of a person's creditworthiness based on their credit history. #Finance #Credit", "published": 0},
+        {"id": 33, "text": "💹 What is the average true range (ATR)? It is a volatility indicator that measures the average range of price movement over a specific period. #Trading #Finance", "published": 0},
+        {"id": 34, "text": "📊 What is the P&L statement? The Profit and Loss statement shows a company’s revenues and expenses to determine its profit or loss over a period. #Finance #Investing", "published": 0},
+        {"id": 35, "text": "🔍 What is liquidity? It is the ease with which an asset can be converted into cash without affecting its price. #Finance #Investing", "published": 0},
+        {"id": 36, "text": "🌟 What is market volatility? It refers to the rate at which the price of an asset increases or decreases for a given set of returns. #Trading #Finance", "published": 0},
+        {"id": 37, "text": "💡 What is a margin call? It occurs when an investor’s margin account falls below the broker’s required level, prompting the investor to deposit more funds. #Trading #Finance", "published": 0},
+        {"id": 38, "text": "📈 What is a moving average convergence divergence (MACD)? It is a trend-following momentum indicator that shows the relationship between two moving averages of a security’s price. #Trading #Finance", "published": 0},
+        {"id": 39, "text": "🔍 What is a callable bond? It is a bond that can be redeemed by the issuer before its maturity date at a specified call price. #Investing #Finance", "published": 0},
+        {"id": 40, "text": "🌟 What is an IPO (Initial Public Offering)? It is the process through which a private company goes public by issuing shares for the first time. #Investing #Finance", "published": 0},
+        {"id": 41, "text": "💹 What is the Sharpe Ratio? It is a measure used to assess the risk-adjusted return of an investment. A higher ratio indicates better risk-adjusted returns. #Investing #Finance", "published": 0},
+        {"id": 42, "text": "📊 What is a technical indicator? It is a statistical measure used by traders to forecast future price movements based on historical data. #Trading #Finance", "published": 0},
+        {"id": 43, "text": "🔍 What is a limit order? It is an order to buy or sell a security at a specific price or better. #Trading #Finance", "published": 0},
+        {"id": 44, "text": "🌟 What is a blue-chip stock? It is a share in a large, reputable, and financially sound company with a long history of stability. #Stocks #Investing", "published": 0},
+        {"id": 45, "text": "💡 What is a bear market? It is characterized by a decline of 20% or more in investment prices. Often associated with pessimism. #Investing #Finance", "published": 0},
+        {"id": 46, "text": "📈 What is a bull market? It is a period when investment prices are rising or expected to rise. Often characterized by optimism. #Investing #Finance", "published": 0},
+        {"id": 47, "text": "🔍 What is a portfolio manager? They are professionals responsible for making investment decisions and managing a portfolio of assets. #Investing #Finance", "published": 0},
+        {"id": 48, "text": "🌟 What is the CAPM (Capital Asset Pricing Model)? It is a model used to determine a theoretically appropriate required rate of return of an asset, considering its risk. #Finance #Investing", "published": 0},
+        {"id": 49, "text": "💹 What is a dividend yield? It is a financial ratio that shows how much a company pays out in dividends relative to its stock price. #Investing #Finance", "published": 0},
+        {"id": 50, "text": "📊 What is an income statement? It provides a summary of a company's revenues and expenses over a specific period, showing profitability. #Finance #Investing", "published": 0},
+        {"id": 51, "text": "🔍 What is a hedge fund? It is an investment fund that uses various strategies to earn active returns for its investors, often involving higher risk. #Investing #Finance", "published": 0},
+        {"id": 52, "text": "🌟 What is a REIT (Real Estate Investment Trust)? It is a company that owns or finances income-producing real estate and distributes income to shareholders. #Investing #Finance", "published": 0},
+        {"id": 53, "text": "💡 What is a trading strategy? It is a fixed plan designed to achieve a profitable return by going long or short in markets. #Trading #Finance", "published": 0},
+        {"id": 54, "text": "📈 What is the VIX Index? Known as the ‘Fear Index,’ it measures market volatility and investor sentiment based on S&P 500 index options. #Finance #Investing", "published": 0},
+        {"id": 55, "text": "🔍 What is a stockbroker? They are professionals who buy and sell stocks on behalf of their clients, often providing investment advice. #Stocks #Finance", "published": 0},
+        {"id": 56, "text": "🌟 What is a bond yield? It is the return an investor can expect to earn from a bond, calculated as the annual interest payment divided by the bond’s price. #Investing #Finance", "published": 0},
+        {"id": 57, "text": "💹 What is a risk tolerance? It is the degree of variability in investment returns that an investor is willing to withstand. #Investing #Finance", "published": 0},
+        {"id": 58, "text": "📊 What is a brokerage account? It is an account that allows an investor to buy and sell securities through a licensed brokerage firm. #Investing #Finance", "published": 0},
+        {"id": 59, "text": "🔍 What is a limit buy order? It is an order to purchase a security at or below a specified price. #Trading #Finance", "published": 0},
+        {"id": 60, "text": "🌟 What is a leveraged ETF? It is an ETF that uses financial derivatives and debt to amplify the returns of an underlying index. #Investing #Finance", "published": 0},
+        {"id": 61, "text": "💡 What is a margin account? It allows investors to borrow money from a broker to purchase securities, increasing their buying power. #Trading #Finance", "published": 0},
+        {"id": 62, "text": "📈 What is an earnings report? It is a quarterly statement issued by a company to disclose its earnings and financial performance. #Stocks #Finance", "published": 0},
+        {"id": 63, "text": "🔍 What is a stock buyback? It is when a company repurchases its own shares from the market to reduce the number of outstanding shares. #Stocks #Finance", "published": 0},
+        {"id": 64, "text": "🌟 What is a growth stock? It is a stock expected to grow at an above-average rate compared to other companies. Often reinvests earnings rather than paying dividends. #Stocks #Investing", "published": 0},
+        {"id": 65, "text": "💹 What is a value stock? It is a stock that appears to be trading for less than its intrinsic value, often judged by financial ratios like P/E. #Stocks #Investing", "published": 0},
+        {"id": 66, "text": "📊 What is a trading volume? It is the number of shares or contracts traded in a security or market during a given period. #Trading #Finance", "published": 0},
+        {"id": 67, "text": "🔍 What is a short sale? It is the sale of a security that the seller does not own, with the expectation of buying it back at a lower price. #Trading #Finance", "published": 0},
+        {"id": 68, "text": "🌟 What is the Dow Theory? It is a theory of market movement that states that stock prices move in trends and can be predicted. #Trading #Finance", "published": 0},
+        {"id": 69, "text": "💡 What is an asset class? It is a group of financial instruments with similar characteristics and market behaviors, like stocks, bonds, or real estate. #Investing #Finance", "published": 0},
+        {"id": 70, "text": "📈 What is a candlestick chart? It is a type of financial chart used to describe price movements of a security over time using candlesticks. #Trading #Finance", "published": 0},
+        {"id": 71, "text": "🔍 What is a high-frequency trader? It is a trader who uses algorithms and high-speed data to execute trades in milliseconds. #Trading #Finance", "published": 0},
+        {"id": 72, "text": "🌟 What is the MSCI World Index? It is a stock market index that represents large and mid-cap companies across 23 developed markets. #Finance #Investing", "published": 0},
+        {"id": 73, "text": "💹 What is an annuity? It is a financial product that provides a series of payments made at equal intervals, often used for retirement income. #Investing #Finance", "published": 0},
+        {"id": 74, "text": "📊 What is a financial statement? It is a formal record of the financial activities and position of a business, person, or other entity. #Finance #Investing", "published": 0},
+        {"id": 75, "text": "🔍 What is a mutual fund? It is an investment vehicle that pools money from multiple investors to invest in a diversified portfolio of assets. #Investing #Finance", "published": 0},
+        {"id": 76, "text": "🌟 What is a yield curve? It is a graph showing the relationship between bond yields and maturities, used to gauge economic expectations. #Finance #Investing", "published": 0},
+        {"id": 77, "text": "💡 What is a real estate investment trust (REIT)? It is a company that owns, operates, or finances income-producing real estate and distributes income to shareholders. #Investing #Finance", "published": 0},
+        {"id": 78, "text": "📈 What is a risk premium? It is the return in excess of the risk-free rate of return that investors require as compensation for risk. #Investing #Finance", "published": 0},
+        {"id": 79, "text": "🔍 What is an exchange-traded fund (ETF)? It is a type of investment fund traded on stock exchanges, holding assets like stocks or bonds. #Investing #Finance", "published": 0},
+        {"id": 80, "text": "🌟 What is the efficient market hypothesis? It is the theory that asset prices fully reflect all available information, making it impossible to consistently outperform the market. #Finance #Investing", "published": 0},
+        {"id": 81, "text": "💹 What is a stop-limit order? It is a type of order that combines features of stop orders and limit orders to control the price at which a trade is executed. #Trading #Finance", "published": 0},
+        {"id": 82, "text": "📊 What is an over-the-counter (OTC) market? It is a decentralized market where trading of financial instruments occurs directly between two parties. #Finance #Investing", "published": 0},
+        {"id": 83, "text": "🔍 What is a stock dividend? It is a dividend payment made in the form of additional shares of stock rather than cash. #Stocks #Finance", "published": 0},
+        {"id": 84, "text": "🌟 What is a call option? It is a financial contract that gives the holder the right, but not the obligation, to buy an asset at a specified price before a certain date. #Trading #Finance", "published": 0},
+        {"id": 85, "text": "💡 What is a put option? It is a financial contract that gives the holder the right, but not the obligation, to sell an asset at a specified price before a certain date. #Trading #Finance", "published": 0},
+        {"id": 86, "text": "📈 What is a bond rating? It is an assessment of the creditworthiness of a bond issuer, used to gauge the risk of default. #Investing #Finance", "published": 0},
+        {"id": 87, "text": "🔍 What is a credit default swap (CDS)? It is a financial derivative that allows an investor to 'swap' or offset their credit risk with another party. #Finance #Investing", "published": 0},
+        {"id": 88, "text": "🌟 What is a leveraged buyout (LBO)? It is the acquisition of a company using a significant amount of borrowed money to meet the cost of acquisition. #Finance #Investing", "published": 0},
+        {"id": 89, "text": "💹 What is a foreign exchange market (Forex)? It is a global marketplace for trading national currencies against one another. #Finance #Investing", "published": 0},
+        {"id": 90, "text": "📊 What is a market order? It is an order to buy or sell a security immediately at the current market price. #Trading #Finance", "published": 0},
+        {"id": 91, "text": "🔍 What is a price-to-book ratio (P/B Ratio)? It is a financial measure comparing a company’s market value to its book value. #Finance #Investing", "published": 0},
+        {"id": 92, "text": "🌟 What is a commodity? It is a basic good used in commerce that is interchangeable with other goods of the same type, such as oil or gold. #Investing #Finance", "published": 0},
+        {"id": 93, "text": "💡 What is a beta coefficient? It measures the volatility of a stock relative to the overall market, indicating its risk level. #Finance #Investing", "published": 0},
+        {"id": 94, "text": "📈 What is a trade deficit? It occurs when a country’s imports exceed its exports, leading to an outflow of domestic currency. #Finance #Economics", "published": 0},
+        {"id": 95, "text": "🔍 What is a trade surplus? It occurs when a country’s exports exceed its imports, leading to an inflow of foreign currency. #Finance #Economics", "published": 0},
+        {"id": 96, "text": "🌟 What is a balance sheet? It is a financial statement that provides a snapshot of a company’s assets, liabilities, and shareholders' equity at a specific point in time. #Finance #Investing", "published": 0},
+        {"id": 97, "text": "💹 What is a net asset value (NAV)? It is the value per share of a mutual fund or ETF, calculated by dividing the total value of the assets by the number of shares outstanding. #Investing #Finance", "published": 0},
+        {"id": 98, "text": "📊 What is an interest rate swap? It is a financial contract where two parties exchange interest payments on a principal amount. #Finance #Investing", "published": 0},
+        {"id": 99, "text": "🔍 What is a mortgage-backed security (MBS)? It is a type of asset-backed security that is secured by a collection of mortgages. #Finance #Investing", "published": 0},
+        {"id": 100, "text": "🌟 What is a risk-free rate? It is the return on an investment with no risk of financial loss, typically represented by government bonds. #Finance #Investing", "published": 0},
+        {"id": 101, "text": "💡 What is a capital gain? It is the profit earned from the sale of an asset or investment when its selling price exceeds its purchase price. #Finance #Investing", "published": 0},
+        {"id": 102, "text": "📈 What is a capital loss? It is the loss incurred when an asset or investment is sold for less than its purchase price. #Finance #Investing", "published": 0},
+        {"id": 103, "text": "🔍 What is a market order? It is an order to buy or sell a security immediately at the best available price. #Trading #Finance", "published": 0},
+        {"id": 104, "text": "🌟 What is the price-to-earnings ratio (P/E Ratio)? It is a valuation ratio, calculated by dividing a company’s share price by its earnings per share. #Finance #Investing", "published": 0},
+        {"id": 105, "text": "💹 What is an option contract? It is a financial derivative that gives the holder the right, but not the obligation, to buy or sell an asset at a specified price. #Trading #Finance", "published": 0},
+        {"id": 106, "text": "📊 What is a hedge? It is an investment made to reduce the risk of adverse price movements in an asset. #Finance #Investing", "published": 0},
+        {"id": 107, "text": "🔍 What is a return on investment (ROI)? It measures the profitability of an investment by comparing the return to the initial investment cost. #Investing #Finance", "published": 0},
+        {"id": 108, "text": "🌟 What is an asset-backed security? It is a financial investment backed by a pool of assets, such as loans or receivables. #Finance #Investing", "published": 0},
+        {"id": 109, "text": "💹 What is a book value? It is the value of a company's assets minus its liabilities, representing the value of equity. #Finance #Investing", "published": 0},
+        {"id": 110, "text": "📈 What is a liquidity ratio? It measures a company’s ability to meet its short-term obligations using its most liquid assets. #Finance #Investing", "published": 0},
+        {"id": 111, "text": "🔍 What is a municipal bond? It is a debt security issued by a state or local government to finance public projects. #Investing #Finance", "published": 0},
+        {"id": 112, "text": "🌟 What is an index fund? It is a mutual fund or ETF designed to replicate the performance of a specific index, like the S&P 500. #Investing #Finance", "published": 0},
+        {"id": 113, "text": "💡 What is a cash flow statement? It shows how cash is generated and used in a company over a specific period, detailing operating, investing, and financing activities. #Finance #Investing", "published": 0},
+        {"id": 114, "text": "📈 What is a short position? It is an investment strategy where an investor sells securities they do not own, expecting the price to fall. #Trading #Finance", "published": 0},
+        {"id": 115, "text": "🔍 What is a treasury bond? It is a long-term debt security issued by the government with a fixed interest rate and maturity of 10 years or more. #Investing #Finance", "published": 0},
+        {"id": 116, "text": "🌟 What is a call option? It is a contract giving the holder the right to buy an asset at a specified price before a certain date. #Trading #Finance", "published": 0},
+        {"id": 117, "text": "💹 What is a put option? It is a contract giving the holder the right to sell an asset at a specified price before a certain date. #Trading #Finance", "published": 0},
+        {"id": 118, "text": "📊 What is a balance sheet? It is a financial statement showing a company's assets, liabilities, and shareholders' equity at a specific point in time. #Finance #Investing", "published": 0},
+        {"id": 119, "text": "🔍 What is a financial ratio? It is a quantitative measure used to evaluate various aspects of a company’s financial performance. #Finance #Investing", "published": 0},
+        {"id": 120, "text": "🌟 What is a stock split? It is when a company divides its existing shares into multiple new shares to increase liquidity. #Stocks #Finance", "published": 0},
+        {"id": 121, "text": "💡 What is a convertible bond? It is a type of bond that can be converted into a predetermined number of the company’s shares. #Investing #Finance", "published": 0},
+        {"id": 122, "text": "📈 What is a futures contract? It is an agreement to buy or sell an asset at a future date for a price determined today. #Trading #Finance", "published": 0},
+        {"id": 123, "text": "🔍 What is a price-to-earnings ratio (P/E Ratio)? It measures a company's current share price relative to its per-share earnings. #Investing #Finance", "published": 0},
+        {"id": 124, "text": "🌟 What is a treasury bill (T-Bill)? It is a short-term debt security issued by the government with a maturity of one year or less. #Finance #Investing", "published": 0},
+        {"id": 125, "text": "💹 What is an inflation rate? It measures the rate at which the general level of prices for goods and services is rising. #Finance #Economics", "published": 0},
+        {"id": 126, "text": "📊 What is a stock market index? It is a measurement of the performance of a group of stocks, often used as a benchmark for the market’s performance. #Finance #Investing", "published": 0},
+        {"id": 127, "text": "🔍 What is an asset allocation? It is the process of dividing investments among different asset categories, like stocks, bonds, and cash, to manage risk. #Finance #Investing", "published": 0},
+        {"id": 128, "text": "🌟 What is a stock option? It is a financial contract that gives the holder the right to buy or sell a stock at a predetermined price before a specified date. #Trading #Finance", "published": 0},
+        {"id": 129, "text": "💡 What is a net income? It is the total earnings of a company after all expenses, taxes, and costs have been subtracted from revenue. #Finance #Investing", "published": 0},
+        {"id": 130, "text": "📈 What is a trading desk? It is a department within a financial institution responsible for executing trades and managing trading operations. #Finance #Investing", "published": 0},
+        {"id": 131, "text": "🔍 What is a yield spread? It is the difference in yields between two different securities, often used to assess credit risk. #Finance #Investing", "published": 0},
+        {"id": 132, "text": "🌟 What is a savings bond? It is a debt security issued by the government, often designed for individual investors with low risk and fixed interest. #Finance #Investing", "published": 0},
+        {"id": 133, "text": "💹 What is a debt-to-equity ratio? It measures a company's financial leverage by comparing its total liabilities to its shareholder equity. #Finance #Investing", "published": 0},
+        {"id": 134, "text": "📊 What is a forward contract? It is a customized contract between two parties to buy or sell an asset at a specified future date and price. #Finance #Investing", "published": 0},
+        {"id": 135, "text": "🔍 What is a book-to-market ratio? It compares a company’s book value to its market value, indicating how undervalued or overvalued a stock may be. #Finance #Investing", "published": 0},
+        {"id": 136, "text": "🌟 What is an investment-grade bond? It is a bond rated by credit rating agencies as having a relatively low risk of default. #Finance #Investing", "published": 0},
+        {"id": 137, "text": "💡 What is a fixed-income security? It is an investment that provides regular income through fixed interest payments, like bonds or certificates of deposit. #Investing #Finance", "published": 0},
+        {"id": 138, "text": "📈 What is a portfolio? It is a collection of investments held by an individual or institution, including assets like stocks, bonds, and real estate. #Finance #Investing", "published": 0},
+        {"id": 139, "text": "🔍 What is a liquidity risk? It is the risk of not being able to buy or sell an investment quickly enough to prevent a loss. #Finance #Investing", "published": 0},
+        {"id": 140, "text": "🌟 What is a credit rating? It is an evaluation of the creditworthiness of a borrower, such as a corporation or government, by a credit rating agency. #Finance #Investing", "published": 0},
+        {"id": 141, "text": "💹 What is a currency pair? It is a pair of currencies that are traded against each other in the foreign exchange market. #Finance #Investing", "published": 1},
+        {"id": 142, "text": "📊 What is a market capitalization? It is the total market value of a company's outstanding shares of stock, calculated by multiplying the share price by the number of shares. #Finance #Investing", "published": 0},
+        {"id": 143, "text": "🔍 What is a corporate bond? It is a debt security issued by a corporation to raise capital, with a promise to pay back the principal along with interest. #Investing #Finance", "published": 0},
+        {"id": 144, "text": "🌟 What is a convertible preferred stock? It is a type of preferred stock that can be converted into a predetermined number of common shares. #Finance #Investing", "published": 0},
+        {"id": 145, "text": "💡 What is an inflation-linked bond? It is a bond with payments that are adjusted according to inflation rates to protect against inflation risk. #Finance #Investing", "published": 0},
+        {"id": 146, "text": "📈 What is a cash reserve? It is money set aside by an individual or organization to cover unexpected expenses or emergencies. #Finance #Investing", "published": 0},
+        {"id": 147, "text": "🔍 What is a profit margin? It is the percentage of revenue remaining after all expenses have been deducted from sales. #Finance #Investing", "published": 0},
+        {"id": 148, "text": "🌟 What is a commodity future? It is a futures contract where the underlying asset is a commodity like oil or gold. #Investing #Finance", "published": 0},
+        {"id": 149, "text": "💹 What is a high-yield bond? It is a bond rated below investment grade that offers higher interest rates to compensate for increased risk. #Finance #Investing", "published": 0},
+        {"id": 150, "text": "📊 What is an options chain? It is a listing of all available options contracts for a particular security, including various strike prices and expiration dates. #Trading #Finance", "published": 0}
+    ]
+    
+    
+
+}
